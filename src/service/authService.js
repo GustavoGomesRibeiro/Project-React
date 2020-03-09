@@ -1,4 +1,4 @@
-export const tokenKey = 'login';
+export const tokenKey = '@airbnb-Token';
 export const isAuthenticated = () => localStorage.getItem (tokenKey) !== null;
 export const getToken = () => JSON.parse(localStorage.getItem(tokenKey));
 export const signIn = token => {JSON.parse(localStorage.getItem(tokenKey, token))};

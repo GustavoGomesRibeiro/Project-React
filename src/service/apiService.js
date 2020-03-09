@@ -3,7 +3,7 @@ import { getToken } from './authService';
 
 
 const apiService = axios.create ({
-    baseUrl: 'http://localhost:3000'
+    baseUrl: 'http://127.0.0.1:3333'
 });
 
 apiService.interceptors.request.use(async config => {
