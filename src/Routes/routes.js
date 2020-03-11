@@ -1,6 +1,7 @@
 import React from 'react'
 import {isAuthenticated} from '../service/authService';
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
+import DefaultLayout from '../container/DefaultLayout';
 import Login from '../view/session/login';
 import Register from '../view/session/register';
 
@@ -21,6 +22,7 @@ const Routes = () => (
         {/* obrigado ter path, exatc{true} component{export here} */}
         <Route exact path='/' component={Login}/>
         <Route path='/register' component={Register}/>
+        <Route path='/DefaultLayout' component={DefaultLayout}/>
         <PrivateRoute path='/App' component={() => <h1></h1>}/>
         <Route path='*' component={() => <h1>page not Found 404</h1>}/>
     </Switch>
