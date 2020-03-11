@@ -8,7 +8,7 @@ class DefaultFooter extends Component {
             <React.Fragment>
                 <div className='flex flex-wrap'>
                     <div className='w-full'>
-                        <span>Project with React Made with ❤ &copy;{ new Date().getfullYear()}</span>
+                        <span>Project with React Made with ❤ &copy;{ new Date().getFullYear()}</span>
                     </div>
                 </div>
             </React.Fragment>
