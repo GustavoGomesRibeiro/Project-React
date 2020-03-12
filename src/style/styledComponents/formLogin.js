@@ -13,8 +13,9 @@ padding: 20px;
 display: flex;
 flex-direction: column;
 align-items: center;
+border-radius: 10px;
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 img {
-  // width: 100px;
   margin: 10px 0 40px;
 }
 p {
@@ -26,8 +27,6 @@ p {
   text-align: center;
 }
 input {
-  // flex: 1;
-  //   padding: 0 20px;
   height: 46px;
   margin-bottom: 15px;
   color: #777;

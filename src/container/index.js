@@ -1,4 +1,4 @@
-import DefaultLayout from './DefaultLayout';
+import DefaultLayout from './Home';
 
 
 export default DefaultLayout
